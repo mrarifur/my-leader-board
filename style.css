@@ -10,6 +10,7 @@ main {
     background-color:#FFFFFF ;
     width: 870px;
     padding: 30px;
+    border-radius: 5px;
     
 
 
@@ -80,4 +81,64 @@ hr{
 .para1{
     text-decoration:none;
     margin-top: 4px;
+}
+
+.course{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+   
+    
+}
+.course-1 img{
+
+    width: 224px;
+    
+}
+.background-color{
+    background-color:#FFFFFF ;
+    /*width: 920px;*/
+   
+    width: 870px;
+    padding: 30px;
+    margin-top: 45px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px; }
+
+.fa-star.fill{
+   
+    color: #ffd700;
+  
+    
+}
+.course-fit {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+.header{
+width: 2040px;
+height: 94px;
+background-color:#562EFF ;
+
+display: flex;
+
+
+}
+.header-flex{
+    display: flex;
+ 
+  
+    
+
+}
+.left{
+    margin-right: 34px;
+}
+.right{
+
+    margin-left: 34px;
 }
